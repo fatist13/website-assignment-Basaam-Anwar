@@ -39,6 +39,12 @@ body {
     text-transform: uppercase;
     font-size: 85px;
     line-height: 1.1;
+    background-color: rgba(225, 225, 225, 0.7);
+  width: 600px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 50px 0 0;
+  border-radius: 25px;
   }
   
   
@@ -54,4 +60,24 @@ body {
     padding: 16px 30px;
     cursor: pointer;
   }
-  
+
+  p{
+    background-color: rgba(225, 225, 225, 0.7);
+  width: 600px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 50px 0 0;
+  border-radius: 25px;
+  }
+  a {
+    font-size: 15;
+    text-align: center;
+  }
+  .links {
+    background-color: rgba(225, 225, 225, 0.7);
+  width: 600px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 0px 0 0;
+  border-radius: 25px;
+  }
