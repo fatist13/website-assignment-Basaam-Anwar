@@ -70,7 +70,7 @@ body {
   width: 600px;
   margin: 25px auto;
   text-align: center;
-  padding: 20px 0 0;
+  padding: 10px 0 0;
   border-radius: 25px;
   font-size: 20;
   font-family: Mantinia, serif;
@@ -148,4 +148,32 @@ body {
     padding: 10px 0 0;
     border-radius: 25px;
     font-size: 70;
+  }
+  imput {
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #233d38;
+    color: white;
+    padding: 0px 20px;
+    font-variant: small-caps;
+    border-radius: 5px;
+    font-family: Mantinia, serif;
+  }
+  
+  button:hover{
+  background-color: #8e9c94;
+  cursor: pointer;
+  }
+  h4{
+    color: #cda568;
+    width: 600px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 10px 0 0;
+    border-radius: 25px;
+    font-size: 30;
   }
