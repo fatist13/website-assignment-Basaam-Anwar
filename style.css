@@ -76,10 +76,11 @@ body {
   font-family: Mantinia, serif;
   }
   a {
-    font-size: 15;
+    font-size: 70;
     text-align: center;
     color:#cda568;
     font-family: Mantinia, serif;
+    text-decoration: none;
   }
   .links {
     background-color: r#8e9c94;
@@ -137,4 +138,7 @@ body {
     margin-right: auto;
     width: 99.9%;
     border-radius: 25px;
+  }
+  .hover {
+    
   }
