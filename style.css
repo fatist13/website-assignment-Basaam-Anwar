@@ -42,13 +42,14 @@ body {
     text-transform: uppercase;
     font-size: 85px;
     line-height: 1.1;
-    background-color: #233d38;
+    background-color: black;
   width: 600px;
   margin: 25px auto;
   text-align: center;
   padding: 20px 0 0;
   border-radius: 25px;
   color: #cda568;
+  float: center;
   }
   
   
@@ -143,12 +144,13 @@ body {
   }
   h3 {
     background-color: #8e9c94;
-    width: 600px;
+    width: 400px;
     margin: 25px auto;
     text-align: center;
-    padding: 10px 0 0;
+    padding: 5px 0 0;
     border-radius: 25px;
-    font-size: 70;
+    font-size: 50;
+    float: center;
   }
   imput {
     font-size: 18px;
