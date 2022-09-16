@@ -74,6 +74,8 @@ body {
   border-radius: 25px;
   font-size: 20;
   font-family: Mantinia, serif;
+  text-indent: 10%;
+  text-transform: inherit;
   }
   a {
     font-size: 70;
