@@ -1,4 +1,3 @@
-/* CSS Style Sheet */
 *,
 ::before,
 ::after {
@@ -92,13 +91,12 @@ body {
   border-radius: 25px;
   color: #8e9c94;
   }
-  /* Add a black background color to the top navigation */
+  
 .topnav {
     background-color: #07110a
     overflow hidden;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: center;
     color: #f2f2f2;
@@ -109,13 +107,13 @@ body {
     border-radius: 25px;
   }
 
-  /* Change the color of links on hover */
+ 
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
   
-  /* Add a color to the active/current link */
+ 
   .topnav a.active {
     background-color: #233d38;
     color: white;
