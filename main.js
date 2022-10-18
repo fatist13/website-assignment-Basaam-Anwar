@@ -35,7 +35,7 @@ function btn3clicked() {
 }
 function btn4clicked() {
     let a4 = document.getElementById("a4").value.toLowerCase();
-    if (a4 === "guidance of grace") {
+    if (a4 === "guidance of grace" || a4 === "grace") {
         alert("Correct!")
     } else {
         alert("Incorrect")

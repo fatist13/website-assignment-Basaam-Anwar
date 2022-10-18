@@ -76,7 +76,6 @@ body {
   font-family: Mantinia, serif;
   text-indent: 10%;
   text-transform: inherit;
-  text
   }
   
   a {
@@ -186,4 +185,13 @@ body {
     margin: 25px auto;
     padding: 10px 0 0; 
   }
-  
+  h5{
+    background-color: hsl(146, 7%, 58%);
+  width: 300px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 25px 0 0;
+  border-radius: 25px;
+  font-size: 40;
+  font-family: Mantinia, serif;
+  }
