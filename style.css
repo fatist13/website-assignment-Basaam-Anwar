@@ -98,6 +98,7 @@ body {
 .topnav {
     background-color: hsl(138, 42%, 5%)
     overflow hidden;
+    width: auto
   } 
   
   .topnav a {
@@ -165,6 +166,8 @@ body {
     font-variant: small-caps;
     border-radius: 5px;
     font-family: Mantinia, serif;
+    margin: 25px auto;
+    font-size: 20;
   }
   
   button:hover{
@@ -198,4 +201,14 @@ body {
   span{
   font-size: 40;
   font-family: Mantinia, serif;
+  }
+  h2 {
+    background-color: hsl(146, 7%, 58%);
+    width: 400px;
+    margin: 25px auto;
+    text-align: center;
+    padding: 5px 0 0;
+    border-radius: 25px;
+    font-size: 20;
+    float: center;
   }

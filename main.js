@@ -39,18 +39,19 @@ function getScore() {
     } else {
         document.getElementById("a24").innerHTML = ("INCORRECT ");
     }
+    // score output
+    if (numScore === 0) {
+        document.getElementById("scoreResult").innerHTML = ("0/4 (0%)");
+        numScore++;
+    } else if (numScore = 1) {
+        document.getElementById("scoreResult").innerHTML = ("1/4 (25%)");
+    } else if (numScore = 2) {
+        document.getElementById("scoreResult").innerHTML = ("2/4 (50%)");
+    } else if (numScore = 3) {
+        document.getElementById("scoreResult").innerHTML = ("3/4 (75%)");
+    }  else if (numScore = 4) {
+        document.getElementById("scoreResult").innerHTML = ("4/4 (100%)");
+    } 
 }
 
-// score output
-if (numScore === 0) {
-    document.getElementById("score").innerHTML = ("0/4 (0%)");
-    numCorrect++;
-} else if (numCorrect = 1) {
-    scoreResult.innerHTML = "1/4 (25%)";
-} else if (numCorrect = 2) {
-    scoreResult.innerHTML = "2/4 (50%)";
-} else if (numCorrect = 3) {
-    scoreResult.innerHTML = "3/4 (75%)";
-}  else if (numCorrect = 4) {
-    scoreResult.innerHTML = "4/4 (100%)";
-} 
+
