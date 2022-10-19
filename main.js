@@ -13,36 +13,44 @@ function getScore() {
     let a4 = document.getElementById("a4").value.toLowerCase();
     //output
     if (a1 === "the lands between") {
-        document.getElementById("a21").innerHTML = "correct";
+        document.getElementById("a21").innerHTML = ("CORRECT ");
         numScore++;
     } else {
-        document.getElementById("a21").innerHTML = "incorrect";
+        document.getElementById("a21").innerHTML = ("INCORRECT ");
     }
     if (a2 === "the demigods") {
-        document.getElementById("a22").innerHTML = "correct";
+        document.getElementById("a22").innerHTML = ("CORRECT ");
         numScore++;
     } else {
-        document.getElementById("a22").innerHTML = "incorrect";
+        document.getElementById("a22").innerHTML = ("INCORRECT ");
     }
     if (a3 === "queen marika") {
-        document.getElementById("a23").innerHTML = "correct";
+        document.getElementById("a23").innerHTML = ("CORRECT ");
         numScore++;
     } else if (a2 === "the demigods") {
-        document.getElementById("a23").innerHTML = "correct";
+        document.getElementById("a23").innerHTML = ("CORRECT ");
         numScore++;
     } else {
-        document.getElementById("a23").innerHTML = "incorrect"
+        document.getElementById("a23").innerHTML = ("INCORRECT ");
     }
-    if (a4 === "guidance of grace") {
-        document.getElementById("a24").innerHTML = "correct";
+    if (a4 === "guidance of grace" || a4 === "grace") {
+        document.getElementById("a24").innerHTML = ("CORRECT ");
         numScore++;
     } else {
-        document.getElementById("a24").innerHTML = "incorrect";
+        document.getElementById("a24").innerHTML = ("INCORRECT ");
     }
 }
 
-// score
-
+// score output
 if (numScore === 0) {
-    document.getElementById("score")
-}
+    document.getElementById("score").innerHTML = ("0/4 (0%)");
+    numCorrect++;
+} else if (numCorrect = 1) {
+    scoreResult.innerHTML = "1/4 (25%)";
+} else if (numCorrect = 2) {
+    scoreResult.innerHTML = "2/4 (50%)";
+} else if (numCorrect = 3) {
+    scoreResult.innerHTML = "3/4 (75%)";
+}  else if (numCorrect = 4) {
+    scoreResult.innerHTML = "4/4 (100%)";
+} 
