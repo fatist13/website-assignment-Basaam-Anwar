@@ -31,7 +31,7 @@ body {
     margin: 0 auto;
     position: relative;
     top: 150px;
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
     z-index: 3;
   }
   
@@ -202,7 +202,7 @@ body {
   font-size: 40;
   font-family: Mantinia, serif;
   }
-  h2 {
+  h6 {
     background-color: hsl(146, 7%, 58%);
     width: 400px;
     margin: 25px auto;
