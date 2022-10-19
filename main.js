@@ -24,7 +24,7 @@ function getScore() {
     } else {
         document.getElementById("a22").innerHTML = ("INCORRECT ");
     }
-    if (a3 === "queen marika") {
+    if (a3 === "queen marika" || a3 === "the queen" || a3 === "ghost of queen elisabeth") {
         document.getElementById("a23").innerHTML = ("CORRECT ");
         numScore++;
     } else if (a2 === "the demigods") {
