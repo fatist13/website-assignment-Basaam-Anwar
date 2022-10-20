@@ -153,10 +153,11 @@ body {
     font-size: 50;
     float: center;
   }
-  imput {
+  input {
     font-size: 18px;
     padding: 5px;
     border-radius: 5px;
+    font-family: Mantinia, serif;
   }
   
   button {
@@ -171,7 +172,7 @@ body {
   }
   
   button:hover{
-  background-color: hsl(146, 7%, 58%);
+  background-color: hsl(231, 8%, 46%);
   cursor: pointer;
   }
   h4{
@@ -182,6 +183,7 @@ body {
     padding: 10px 0 0;
     border-radius: 25px;
     font-size: 30;
+    font-family: Mantinia, serif;
   }
   img {
     width: 600px;
@@ -189,7 +191,7 @@ body {
     padding: 10px 0 0; 
   }
   h5{
-    background-color: hsl(146, 7%, 58%);
+    background-color: hsl(150, 7%, 65%);
   width: 300px;
   margin: 25px auto;
   text-align: center;
@@ -212,3 +214,4 @@ body {
     font-size: 20;
     float: center;
   }
+  
